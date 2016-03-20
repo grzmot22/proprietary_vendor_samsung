@@ -199,6 +199,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/cdma/bin/rild:system/rild/cdma/bin/rild \
 	vendor/samsung/jf-common/proprietary/rild/cdma/bin/rmt_storage:system/rild/cdma/bin/rmt_storage \
 	vendor/samsung/jf-common/proprietary/rild/cdma/lib/libatparser.so:system/rild/cdma/lib/libatparser.so \
+	vendor/samsung/jf-common/proprietary/rild/cdma/lib/libcnefeatureconfig.so:system/rild/cdma/lib/libcnefeatureconfig.so \
 	vendor/samsung/jf-common/proprietary/rild/cdma/lib/libfactoryutil.so:system/rild/cdma/lib/libfactoryutil.so \
 	vendor/samsung/jf-common/proprietary/rild/cdma/lib/libomission_avoidance.so:system/rild/cdma/lib/libomission_avoidance.so \
 	vendor/samsung/jf-common/proprietary/rild/cdma/lib/libreference-ril.so:system/rild/cdma/lib/libreference-ril.so \
@@ -206,6 +207,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/cdma/lib/librmnetctl.so:system/rild/cdma/lib/librmnetctl.so \
 	vendor/samsung/jf-common/proprietary/rild/cdma/lib/libsec-ril.so:system/rild/cdma/lib/libsec-ril.so \
 	vendor/samsung/jf-common/proprietary/rild/cdma/lib/libsecril-client.so:system/rild/cdma/lib/libsecril-client.so \
+	vendor/samsung/jf-common/proprietary/rild/cdma/lib/libstlport.so:system/rild/cdma/lib/libstlport.so \
 	vendor/samsung/jf-common/proprietary/rild/cdma/lib/libxml.so:system/rild/cdma/lib/libxml.so \
 	vendor/samsung/jf-common/proprietary/rild/cdma/vendor/lib/libcneapiclient.so:system/rild/cdma/vendor/lib/libcneapiclient.so \
 	vendor/samsung/jf-common/proprietary/rild/cdma/vendor/lib/libconfigdb.so:system/rild/cdma/vendor/lib/libconfigdb.so \
@@ -230,6 +232,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/usc/bin/rild:system/rild/usc/bin/rild \
 	vendor/samsung/jf-common/proprietary/rild/usc/bin/rmt_storage:system/rild/usc/bin/rmt_storage \
 	vendor/samsung/jf-common/proprietary/rild/usc/lib/libatparser.so:system/rild/usc/lib/libatparser.so \
+	vendor/samsung/jf-common/proprietary/rild/usc/lib/libcnefeatureconfig.so:system/rild/usc/lib/libcnefeatureconfig.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/lib/libfactoryutil.so:system/rild/usc/lib/libfactoryutil.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/lib/libomission_avoidance.so:system/rild/usc/lib/libomission_avoidance.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/lib/libreference-ril.so:system/rild/usc/lib/libreference-ril.so \
@@ -237,6 +240,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/usc/lib/librmnetctl.so:system/rild/usc/lib/librmnetctl.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/lib/libsec-ril.so:system/rild/usc/lib/libsec-ril.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/lib/libsecril-client.so:system/rild/usc/lib/libsecril-client.so \
+	vendor/samsung/jf-common/proprietary/rild/usc/lib/libstlport.so:system/rild/usc/lib/libstlport.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/lib/libxml.so:system/rild/usc/lib/libxml.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/vendor/lib/libcneapiclient.so:system/rild/usc/vendor/lib/libcneapiclient.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/vendor/lib/libconfigdb.so:system/rild/usc/vendor/lib/libconfigdb.so \
@@ -273,6 +277,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/vzw/bin/rild:system/rild/vzw/bin/rild \
 	vendor/samsung/jf-common/proprietary/rild/vzw/bin/rmt_storage:system/rild/vzw/bin/rmt_storage \
 	vendor/samsung/jf-common/proprietary/rild/vzw/lib/libatparser.so:system/rild/vzw/lib/libatparser.so \
+	vendor/samsung/jf-common/proprietary/rild/vzw/lib/libcnefeatureconfig.so:system/rild/vzw/lib/libcnefeatureconfig.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/lib/libfactoryutil.so:system/rild/vzw/lib/libfactoryutil.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/lib/libomission_avoidance.so:system/rild/vzw/lib/libomission_avoidance.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/lib/libreference-ril.so:system/rild/vzw/lib/libreference-ril.so \
@@ -280,6 +285,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/vzw/lib/librmnetctl.so:system/rild/vzw/lib/librmnetctl.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/lib/libsec-ril.so:system/rild/vzw/lib/libsec-ril.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/lib/libsecril-client.so:system/rild/vzw/lib/libsecril-client.so \
+	vendor/samsung/jf-common/proprietary/rild/vzw/lib/libstlport.so:system/rild/vzw/lib/libstlport.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/lib/libxml.so:system/rild/vzw/lib/libxml.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/vendor/lib/libcneapiclient.so:system/rild/vzw/vendor/lib/libcneapiclient.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/vendor/lib/libconfigdb.so:system/rild/vzw/vendor/lib/libconfigdb.so \
