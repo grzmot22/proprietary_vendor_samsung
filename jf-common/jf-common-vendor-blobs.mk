@@ -1,8 +1,5 @@
 # Copyright (C) 2015 The CyanogenMod Project
-<<<<<<< HEAD
-=======
 # Copyright (C) 2015 The JDCTeam
->>>>>>> 0efe83c20dc7a668ae729e0445636029bd25e237
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,11 +21,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/bin/radish:system/bin/radish \
 	vendor/samsung/jf-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-<<<<<<< HEAD
-	vendor/samsung/jf-common/proprietary/vendor/firmware/bcm4335_V0343.0353.hcd:system/vendor/firmware/bcm4335_V0343.0353.hcd \
-=======
 	vendor/samsung/jf-common/proprietary/vendor/firmware/bcm4335_V0343.0353.hcd:system/vendor/firmware/bcm4335.hcd \
->>>>>>> 0efe83c20dc7a668ae729e0445636029bd25e237
 	vendor/samsung/jf-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/samsung/jf-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
 	vendor/samsung/jf-common/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
